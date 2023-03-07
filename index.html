@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ryan Carpenter</title>
+    <style>
+        @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-SemiBoldItalic.ttf') format('truetype');
+          font-weight: 600;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-Regular.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-LightItalic.ttf') format('truetype');
+          font-weight: 300;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-MediumItalic.ttf') format('truetype');
+          font-weight: 500;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-BlackItalic.ttf') format('truetype');
+          font-weight: 900;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-RegularItalic.ttf') format('truetype');
+          font-weight: normal;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-ExtraBoldItalic.ttf') format('truetype');
+          font-weight: 800;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-SemiBold.ttf') format('truetype');
+          font-weight: 600;
+          font-style: normal;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-BoldItalic.ttf') format('truetype');
+          font-weight: bold;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-Light.ttf') format('truetype');
+          font-weight: 300;
+          font-style: normal;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-Thin.ttf') format('truetype');
+          font-weight: 100;
+          font-style: normal;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-Bold.ttf') format('truetype');
+          font-weight: bold;
+          font-style: normal;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-ExtraBold.ttf') format('truetype');
+          font-weight: 800;
+          font-style: normal;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-Black.ttf') format('truetype');
+          font-weight: 900;
+          font-style: normal;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-ThinItalic.ttf') format('truetype');
+          font-weight: 100;
+          font-style: italic;
+      }
+      
+      @font-face {
+          font-family: 'Hellix';
+          src: url('https://assets.codepen.io/6060109/Hellix-Medium.ttf') format('truetype');
+          font-weight: 500;
+          font-style: normal;
+      }
+      </style>
+      
+</head>
+<body>
+    <div class="main">
+        <div class="outer-container">
+      <div class="header">
+        <h3>Ryan <span class="strong">Carpenter</span></h3>
+        <ul class="top-nav">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="content-section-container text-centered bp-100 hero-section">
+        <!--<img src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="work-out-boi">-->
+        <img src="Developer_05__Converted__generated-removebg-preview.png">
+        <div class="hero-text">
+          <h1><span class="strong">Web Developer</span></h1>
+        <p id="contact">Aspiring web developer profficient in html, css, javascript, with use of the react framework.</p>
+        <li class="icons-container">
+          <a><img src="atom.png" alt=""></a>
+          <a><img src="js.png" alt=""></a>
+          <a><img src="typescript.png" alt=""></a>
+          <a><img src="html-5.png" alt=""></a>
+          <a><img src="css.png" alt=""></a>
+      </li>
+        <a class="btn btn-primary" href="#" id="myBtn">Contact Me</a>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="https://formspree.io/f/xnqovgag"
+            method="POST" class="form-contact" id="contact">
+                  <input id="user-name" type="text" name= "name" placeholder="Name:" required>
+                  <input id="user-email" type="text" name= "email" placeholder="Email:" required>
+                  <textarea id="user-message" name= "message" placeholder="Message"></textarea>
+                  <button type="submit" class ="form-btn">Submit</button>
+                </form>
+          </div>
+        
+        </div>
+        </div>
+      </div>
+      
+      <div class="left-to-right">
+        <div class="content-section-container work-out-img-2">
+          <!--<img src="https://assets.codepen.io/6060109/workout-vector-2.png" alt="more-working-out">-->
+          <img src="vecteezy_student-online-learning-for-search-engine-optimization-and_-removebg-preview.png">
+        </div>
+        <div class="secondary">
+        <div class="content-section-container">
+           <h2>Choose how you want your website to look <span class="strong">for yourself</span></h2>
+          <p>I will help design a website hand in hand with you, I will design your dream website from scratch.</p> 
+          <br>       
+          <p>You can change and update your website as often as you would like in the building process.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <div class="bp-100"></div>
+      
+      <div class="gradient-bg">
+      <div class="content-section-container text-centered trainer-text tp-80">
+        <h2 class="strong" id="about">About Me</h2>
+        <h6>23 y.o.// 2 year experience</h6>
+        <p>Hello! I am 23 years old studying web development, I am curently focusing on front end web development
+            utilizing <strong>HTML, CSS, and Javascript while using React as a framework.</strong> I also have experience in full stack developemnt using the 
+            <strong>MERN stack</strong> to develop robust and modern websites.
+        </p><br>
+        <p>Some of my other hobbies include hockey, gaming and coffee, I am a huge sports fan and am a little too obssessed with StarWars</p>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/ryanjcarpenter">View My LinkedIn</a>
+      </div>
+      </div>
+      
+      <div class="bp-100"></div>
+      
+       <div class="outer-container">
+      <div class="content-section-container border-bottom benefits-container">
+        <div class="simple-flex">
+        <h2 class="desktop-only bm-40" id="work">Some of <span class="strong">my work<span></h2>
+        <a class="btn btn-primary desktop-only" href="https://github.com/Erzyelc">View More</a>
+        </div>
+        <div class="images-container">
+        <!--<img src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="runner">-->
+        <img src="Frame (Traced).svg" class="work-image">
+          <h2 class="mobile-only bm-40">Some of <span class="strong">my work</span></h2>
+          <div class="boxes">
+            <div class="box cinetrail">
+            <h5><a href="https://cinetrail-rjc.netlify.app/">Cinetrail</a></h5>
+            <p>A dynamic imdb clone built using React, HTML, CSS and the moviedb api</p>
+        </div>
+        <div class="box unilife">
+            <h5><a href="https://unilife-rjc.netlify.app/">Unilife</a></h5>
+            <p>A housing website for students built using React, HTML, CSS using a custom backend api</p>
+        </div>
+        <div class="box milkymood">
+          <h5><a href="https://codesandbox.io/s/milky-mood-ycg30">Milky Mood</a></h5>
+        </div>
+        <div class="box zesty">
+          <h5><a href="https://zesty-rjc.netlify.app">Zesty Media</a></h5>
+          </div>
+        </div>
+        </div>
+        <a class="btn btn-primary mobile-only" href="https://github.com/Erzyelc">View More</a>
+      </div>
+      
+      <footer class="content-section-container text-centered">
+        <h3>Ryan<span class="strong">Carpenter</span></h3>
+        <ul class="footer-ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="stay-up-to-date">
+        <h6 class="bm-15">View My Resume</h6>
+        <button class="resume-btn"><a href="https://docs.google.com/document/d/1EEDMg-LnZOijZo47OInfGHQd_Wdr-ofDwFsaF26jf4Q/edit?usp=sharing">Download</a></button>
+        </div>
+        <!--
+        <div class="footer-icons">
+          <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-instagram.png" alt="Instagram">
+          </div>
+          <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-dribbble.png" alt="Dribble">
+          </div>
+          <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-twitter.png" alt="Twitter">
+          </div>
+          <div class="icon-circle">
+            <img src="https://assets.codepen.io/6060109/icon-youtube.png" alt="Youtube">
+          </div>
+        </div>
+      -->
+        </footer>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
